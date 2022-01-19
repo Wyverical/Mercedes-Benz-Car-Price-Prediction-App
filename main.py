@@ -227,9 +227,9 @@ elif menu == 'Predict Price':
         x[1] = engineSize
         if transmission_index >= 0:
             x[transmission_index] = 1
-        if fuel_index >= 0:
+        elif fuel_index >= 0:
             x[fuel_index] = 5
-        if model_index >= 0:
+        elif model_index >= 0:
             x[model_index] = 9
 
         return decision_tree.predict([x])[0]
@@ -249,9 +249,9 @@ elif menu == 'Predict Price':
         x[1] = engineSize
         if transmission_index >= 0:
             x[transmission_index] = 1
-        if fuel_index >= 0:
+        elif fuel_index >= 0:
             x[fuel_index] = 5
-        if model_index >= 0:
+        elif model_index >= 0:
             x[model_index] = 9
 
         return linear_reg.predict([x])[0]
