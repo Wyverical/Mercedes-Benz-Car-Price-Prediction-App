@@ -1,6 +1,6 @@
 # Mercedes-Benz-Car-Price-Prediction-App
 
-<p align="center">
+<p align="left">
   <a href = "https://wyverical.medium.com/"><img height="50" width="50"src="https://github.com/Wyverical/Wyverical/blob/main/medium.PNG"/></a>
 </p>
 
